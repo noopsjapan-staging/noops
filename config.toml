@@ -1,4 +1,58 @@
-baseURL = "https://noopsjapan-staging.github.io"
-languageCode = "en-us"
-title = "NoOps Japan"
 theme = "devfest-theme-hugo"
+title = "NoOps Japan"
+date = "2019-03-30"
+description = "NoOps Japanでは 「システム運用保守の'嬉しくないこと'をなくそう！」 をテーマに、 NoOpsを実現するための技術・設計手法・開発運用保守サイクル・ツールや考え方・事例などを共有していきたいと考えています。"
+#...
+
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[params]
+    title = "DevFest Toulouse 2019"
+    date = "2019-10-03"
+    description = "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles."
+    images = ["/images/social-share.jpg"]
+    email = "contact@devfesttoulouse.fr"
+    keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
+    copyright = "We :heart:️ chocolatines"
+    cfpUrl = "https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
+    subscriptionUrl = "http://eepurl.com/dps1j5"
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/images/favicon.ico"
+    favicon16 = "/images/favicon.ico"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#673ab7"
+
+[params.logos]
+    jumbo = "/images/noops-header2.png"
+    header = "/images/noops-header2.png"
+    footer = "/images/noops-header2.png"
+
+#[menu]
+#[[menu.main]]
+#    identifier = "jobs"
+#    name = "Jobs"
+#    url = "https://jobs.devfesttoulouse.fr/"
+#    weight = 200
+#    external = true
+
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "gb"
+
+[languages.jp]
+    weight = 2
+    languageName = "jp"
+
+[languages.jp.params]
+    description = "NoOpsはNo Uncomfortable Ops（システム運用の嬉しくないことをなくす）を目指すための技術、アーキテクチャ、それを実現するための活動を指します。このアプローチの代表例に、コンテナを活用した高回復性設計、DevOpsの活用、モニタリングと構成設定の自動化、SREによるToil削減活動、などがあります。"
+
+[taxonomies]
+  tag = "NoOps"
+#...
