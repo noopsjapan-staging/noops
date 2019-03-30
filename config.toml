@@ -1,0 +1,4 @@
+baseURL = "https://noopsjapan-staging.github.io"
+languageCode = "en-us"
+title = "NoOps Japan"
+theme = "devfest-theme-hugo"
